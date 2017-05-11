@@ -1,0 +1,11 @@
+一、 Sysenter hook：指定一些常见的、有用的功能函数进行hook。DeviceIoControlFile Hook，
+	查看程序的send情况。
+
+二、 函数头hook，常用于hook系统函数，如  DispatchMessageHook。
+
+三、 InlineHook， 函数内部hook，并支持指定模块名、偏移地址进行hook，可以同时hook多个，
+	 配合堆栈回溯及参数显示效果极佳。
+
+四、 解析文件hook， 确定导入表进行hook。
+
+五、 虚函数HOOK。

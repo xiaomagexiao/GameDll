@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a87db546-66fa-41aa-9644-7a4b2436c513}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{302b3a53-ed73-4b5e-b58b-c7e865a38437}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{321221a4-c255-49bf-9fa0-3dfdf993e63e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Updata Files">
+      <UniqueIdentifier>{9ab69c5f-4b4b-4dfc-8fa1-d17b6092da23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{0a5ece47-31f0-49c5-bf95-01a022ddb7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{35086bc1-1c5a-411c-92bf-55cfe1537363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Msg">
+      <UniqueIdentifier>{0462230c-e7a0-48c9-9f19-c5407f0998d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{9bd9319f-4b5b-434c-89cb-581749144e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinIo">
+      <UniqueIdentifier>{3fadeb72-8694-4950-803a-d8a89769b8db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGE8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HookVt.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBase.cpp">
+      <Filter>Updata Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="HwndUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMsg.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="HookSystemCall.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineHook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaAPI.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseFileHook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookFunctions.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="winIO\InstDrv.cpp">
+      <Filter>WinIo</Filter>
+    </ClCompile>
+    <ClCompile Include="winIO\Phys32.cpp">
+      <Filter>WinIo</Filter>
+    </ClCompile>
+    <ClCompile Include="winIO\Port32.cpp">
+      <Filter>WinIo</Filter>
+    </ClCompile>
+    <ClCompile Include="winIO\WinIo.cpp">
+      <Filter>WinIo</Filter>
+    </ClCompile>
+    <ClCompile Include="IOMsg.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSSDTInformation.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookCallBack.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookMain.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLL.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGE8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookVt.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBase.h">
+      <Filter>Updata Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="HwndUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMsg.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="HookSystemCall.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaAPI.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="HookFunctions.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="winIO\Phys32.h">
+      <Filter>WinIo</Filter>
+    </ClInclude>
+    <ClInclude Include="winIO\Port32.h">
+      <Filter>WinIo</Filter>
+    </ClInclude>
+    <ClInclude Include="winIO\winio.h">
+      <Filter>WinIo</Filter>
+    </ClInclude>
+    <ClInclude Include="IOMsg.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyTable.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSSDTInformation.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookCallBack.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookMain.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Afd.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DLL.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\DLL.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SSDTTable.txt" />
+    <None Include="功能说明.txt" />
+  </ItemGroup>
+</Project>
